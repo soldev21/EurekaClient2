@@ -1,6 +1,6 @@
 package client.model;
 
-public class Instance {
+public class MicroInstance {
     private String host;
     private Integer port;
 

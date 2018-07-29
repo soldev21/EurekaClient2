@@ -3,9 +3,9 @@ package client.model;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Service {
+public class MicroService {
     private String name;
-    private List<Instance> instances = new ArrayList<>();
+    private List<MicroInstance> microInstances = new ArrayList<>();
 
     public String getName() {
         return name;
@@ -15,11 +15,11 @@ public class Service {
         this.name = name;
     }
 
-    public List<Instance> getInstances() {
-        return instances;
+    public List<MicroInstance> getMicroInstances() {
+        return microInstances;
     }
 
-    public void setInstances(List<Instance> instances) {
-        this.instances = instances;
+    public void setMicroInstances(List<MicroInstance> microInstances) {
+        this.microInstances = microInstances;
     }
 }
